@@ -3,6 +3,9 @@ package ch.christianmenz.java11.trywithresources;
 import java.io.IOException;
 import java.io.StringReader;
 
+/**
+ * Example of ARM (automatic resource management)
+ */
 public class Main {
 
     public static void main(String[] args) {
