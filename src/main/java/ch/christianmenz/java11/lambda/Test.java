@@ -1,9 +1,6 @@
 package ch.christianmenz.java11.lambda;
 
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Method;
 import java.util.function.DoubleBinaryOperator;
-import java.util.function.LongConsumer;
 
 public class Test {
 
