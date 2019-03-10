@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         var strings = new ArrayList<>();
         strings.add("Hello World");
-        for (var string : strings) { // List<Object>
+        for (var string : strings) { // List<Object> not List<String> ....
             //System.out.println(string.replace("World", "Java 11")); // cannot find symbol 'replace'
         }
 

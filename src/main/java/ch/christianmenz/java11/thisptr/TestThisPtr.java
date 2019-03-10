@@ -7,7 +7,7 @@ public class TestThisPtr {
     }
 
     // Okay, great. Now I can't read Java code anymore (in since Java 8!)
-    // Only thing I can think of is annotations on the parameter..
+    // Only thing I can think of is annotations on the parameter.. e.g. @SomeAnnotation TestThisPtr this
     void test2(TestThisPtr this) {
         System.out.println("yeah " + this);
         System.out.println(this == this);
